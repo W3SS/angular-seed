@@ -3,7 +3,7 @@ const webpackMerge = require('webpack-merge')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlPlugin = require('html-webpack-plugin')
 const { DefinePlugin, ProgressPlugin, optimize, ContextReplacementPlugin, NormalModuleReplacementPlugin } = require('webpack')
-const { AotPlugin } = require('@ngtools/webpack')
+const { AngularCompilerPlugin } = require('@ngtools/webpack')
 
 const TEST_ASSETS = /assets[\/\\].*\.scss$/;
 const OUTPUT_PATH = path.resolve(__dirname, 'dist')
@@ -63,7 +63,7 @@ const webpackConfig = {
     filename: '[name].bundle.js'
   },
   plugins: [
-    new AotPlugin(getAotOptions()),
+    new AngularCompilerPlugin(getAotOptions()),
     new ProgressPlugin(),
     new ExtractTextPlugin('main.css'),
     new DefinePlugin({
