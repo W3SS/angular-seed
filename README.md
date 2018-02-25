@@ -1,16 +1,16 @@
-# `Angular 4 Seed` — starter project for Angular 4 apps
+# Angular — starter project for Angular 4 apps
 
-This project is an application skeleton for a [Angular4][angular4] web app. You can use it
+This project is an application skeleton for a [Angular][angular] web app. You can use it
 to quickly bootstrap your angular4 projects and dev environment for these projects.
 
-The project is preconfigured to install the Angular 4 and a bunch of development and testing tools including linter which follows the angular style guide found in https://angular.io/styleguide.
+The project is preconfigured to install the Angular and a bunch of development and testing tools including linter which follows the angular style guide found in https://angular.io/styleguide.
 
 ### Usage
 
 - Clone or fork this repository
 ```
-git clone https://github.com/willyelm/angular4-seed.git
-cd angular4-seed
+git clone https://github.com/willyelm/angular-seed.git
+cd angular-seed
 ```
 
 - install dependencies
@@ -35,4 +35,4 @@ npm run e2e
 ```
 
 
-[angular4]: https://angular.io/
+[Angular]: https://angular.io/

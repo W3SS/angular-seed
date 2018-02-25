@@ -1,8 +1,8 @@
 // import scss
-import './assets/main.scss'
+import './assets/main.scss';
 
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { enableProdMode } from '@angular/core'
+import { enableProdMode } from '@angular/core';
 import { AppModule } from './app/app.module';
 import { environment } from 'environments/environment';
 
